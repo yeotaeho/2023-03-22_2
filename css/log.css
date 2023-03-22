@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+
+
+#sss {width: 1200px; height: 5000px; background-color: #eee; margin:0 auto;}
+
+
+
+ul.tabs { float: left; height: 60px; border-bottom: 1px solid #eee; border-left: 1px solid #eee; width: 1200px; margin:0px 0px 70px 0px;}
+ul.tabs li { float: left; text-align:center; cursor: pointer; width:385px; height: 60px; line-height: 31px; border: 1px solid #eee; border-left: none; font-weight: bold; background: #fafafa; overflow: hidden; position: relative;}
+ul.tabs li.active { background: #FFFFFF; border-bottom: 1px solid #FFFFFF; }
+.tab_container { border: 1px solid #eee; border-top: none; clear: both; float: left; width: 248px; background: #FFFFFF;}
+.tab_content { padding: 5px; font-size: 12px; display: none;}
+.tab_container .tab_content ul { width:100%; margin:0px; padding:0px;}
+.tab_container .tab_content ul li { padding:5px; list-style:none;}
+#container {width: 1160px; margin: 0 auto;}
